@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #007BFF;
+    color: white;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* About Section */
+#about {
+    background: linear-gradient(135deg, deeppink , #F08080);
+    padding: 50px 20px;
+    color: white;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-content {
+    flex: 1;
+    text-align: left;
+}
+
+.about-content h2 {
+    font-size: 2.8em;
+    color: #ffeb3b;
+    text-transform: uppercase;
+}
+
+.about-content h3 {
+    font-size: 1.8em;
+    color: #ffffff;
+}
+
+.about-content p {
+    font-size: 1.3em;
+    line-height: 1.6;
+    color: white ;
+}
+
+.about-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ffeb3b;
+}
+
+img:hover {
+    transform: scale(1.2);
+    opacity: 1;
+transition-duration: 1s;
+}
+
+
+/* Footer */
+footer {
+    background: #0056b3;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+}
+
+/* Default link styles */
+a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 10px;
+    color: black;
+    transition: color 0.3s, transform 0.3s;
+}
+
+/* 🔥 Individual Hover Effects */
+#link1:hover {
+    color: deeppink;
+    transform: scale(1.2);
+}
+
+#link2:hover {
+    color: deeppink;
+    transform: scale(1.2);
+}
+
+#link3:hover {
+    color: deeppink;
+    transform: scale(1.2);
+}
+
+#link4:hover {
+    color: deeppink;
+    transform: scale(1.2);
+    opacity: 1;
+    /* transition-duration: 0s; */
+}

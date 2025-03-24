@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #007BFF;
+    color: white;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #F2F2F2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 20px;
+    background: #f080e1;
+}
+
+.project {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #FFD700;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.project h3 {
+    color: #000000;
+}
+
+.project ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    background: #0056b3;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .project {
+        text-align: center;
+    }
+}
+
+/* Default link styles */
+a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 10px;
+    color: black;
+    transition: color 0.3s, transform 0.3s;
+}
+
+/* 🔥 Individual Hover Effects */
+#link1:hover {
+    color: green;
+    transform: scale(1.2);
+}
+
+#link2:hover {
+    color: green;
+    transform: scale(1.2);
+}
+
+#link3:hover {
+    color: green;
+    transform: scale(1.2);
+}
+
+#link4:hover {
+    color: green;
+    transform: scale(1.2);
+}

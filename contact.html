@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contactstyle.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <ul>
+                <li><a id="link1" href="index.html">Home</a></li>
+                <li><a id="link2" href="about.html">About</a></li>
+                <li><a id="link3" href="projects.html">Projects</a></li>
+                <li><a id="link4" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <p>If you'd like to reach out, feel free to contact me using the details below.</p>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Email</h3>
+                <p><a href="mailto:bajajyash06@gmail.com">bajajyash06@gmail.com</a></p>
+
+                <h3>Social Media</h3>
+                <p><a href="https://www.linkedin.com/in/bajajyash2/">LinkedIn</a> | 
+                   <a href="https://www.instagram.com/yash___bajaj/">Instagram</a></p>
+            </div>
+
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form action="submission.html" method="">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+</body>
+</html>
